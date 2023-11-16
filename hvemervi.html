@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DavidBreadHead</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+<!-- Header -->
+  <header class="header">
+    <div class="topnav" id="myTopnav">
+        <a class="nav_forside" href="index.html">Forside</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Vores udvalg 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="kager.html">Kager</a>
+                <a href="brod.html">Brød & mad</a>
+                <a href="drikke.html">Varme & kolde drikke</a>
+            </div>
+        </div> 
+
+        <a href="index.html" class="active"> <img class="logo" src="img/logo.png" alt="DavidBreadHead logo"></a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Arrangementer
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="ombygning.html">Running Club</a>
+                <a href="ombygning.html">Kurser</a>
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Om os 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="hvemervi.html">Hvem er vi?</a>
+                <a href="ombygning.html">Råvarer</a>
+            </div>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+    }
+    </script>
+
+    <div class="logo2">
+        <a href="index.html"><img class="logo3" src="img/logo.png" alt="DavidBreadHead logo"></a>
+    </div>
+</header>
+
+<!-- Main indhold -->
+  <main>
+    <img class="bolge" src="img/omos/hvemervi.jpg" alt="">
+    </main>
+    
+    <div class="omos_container">
+      <div class="omos_section">
+        <div class="omos_tekst1">
+          DavidBreadHead er et hyggeligt surdejsbageri i Aarhus, der oser af varme og duften af friskbagt brød og kager, 
+          så snart du træder ind ad døren. Dette skønne bageri, som er opkaldt efter sin ejer, David, 
+          er en perle for alle elskere af lækre bagværk og god mad.
+          Bageriet er stedet, hvor kvalitet, smag og venlig betjening går hånd i hånd, og det er en sand 
+          fryd for sanserne for alle, der besøger det.
+        </div>
+        <div>
+            <img class="billede_hojre" src="img/omos/osos_main1.jpg" alt="venstre billede">
+        </div>
+      </div>
+      <div class="omos_section">
+        <div class="omos_tekst2">
+          Hvis sulten melder sig, kan du også nyde en række lækre madretter, eksemplevis vores velsmagende sandwich. 
+          Når det kommer til drikkevarer, tilbyder vi både kolde og varme drikke, herunder kaffe, te, juicer og sodavand. 
+          Du kan sidde ned og nyde din mad i bageriets hyggelige caféområde eller tage den med dig som en lækker to-go-løsning. 
+        </div>
+        <div>
+            <img class="billede_venstre" src="img/omos/omos_main2.jpg" alt="højre billede">
+        </div>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- Adresse -->
+    <section class="footer_container">
+    <p class="footer_item">
+        Bakery/cafe: <br>
+        Ny Munkegade 4B <br>
+        8000 Aarhus C <br>
+        Danmark
+    <br>
+    <br>
+        Baking Studio: <br>
+        J. M. Mørks Gade 7, kl. th <br>
+        8000 Aarhus C <br>
+        Danmark
+    </p>
+    <br>
+    
+     <!-- Sociale Medier -->
+    <div class="footer_item">
+    <p> Sociale medier </p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/DavidBreadHead" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+      <a href="https://www.instagram.com/davidbreadhead/" target="_blank"><img src="img/instragram.png" alt="instagram"></a>
+      <a href="https://www.tiktok.com/@davidbreadhead" target="_blank"><img src="img/tiktok.png" alt="tiktok"></a>
+    </div>
+    </div>
+    <br>
+    
+     <!-- Åbningstider -->
+    <p class="footer_item"> 
+      Åbningstider <br>
+      Mandag-Fredag: 07:15 - 18:00 <br>
+      Lørdag: 08:30 - 18:00 <br>
+      Søndag: 08:30 - 16:30 <br>
+    </p>
+    </section>
+</footer>
+
+</body>
+</html>
